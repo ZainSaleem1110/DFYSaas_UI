@@ -1,0 +1,1342 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.css"
+      integrity="sha512-yHknP1/AwR+yx26cB1y0cjvQUMvEa2PFzt1c9LlS4pRQ5NOTZFWbhBig+X9G9eYW/8m0/4OXNx8pxJ6z57x0dw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.min.css"
+      integrity="sha512-17EgCFERpgZKcm0j0fEq1YCJuyAWdz9KUtv1EjVuaOz8pDnh/0nZxmU6BBXwaaxqoi9PQXnRWqlcDB027hgv9A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <link rel="stylesheet" href="./CSS/Style.css" />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
+    <title></title>
+  </head>
+  <body>
+    <div class="overflow-hidden">
+      <section class="BannerSection">
+        <div class="BackgroundImage">
+          <div class="width100 ItemsCenterVertical">
+            <div class="Width90 marginTop30">
+              <div class="Logo">
+                <img src="./images/Logo.png" alt="Logo" />
+              </div>
+            </div>
+          </div>
+
+          <div class="Width100 ItemsCenterVertical marginTop30">
+            <div
+              class="Width70 ItemsCenter width80OnLargeDevice flex-md-row flex-column paddingOnMobile"
+            >
+              <div class="width60 position-relative">
+                <h5 class="headingTitle mb-0 text-md-start text-center">
+                  Hey Founders!
+                </h5>
+                <div class="text-md-start text-center">
+                  <img src="./images/underline.png" class="UnderLineWidth" />
+                </div>
+                <h1 class="HeadingSubtitle text-md-start text-center">
+                  Looking For Custom
+                  <span class="ColorYellow">Software Development</span>
+                  Services?
+                </h1>
+                <p class="Description text-md-start text-center">
+                  If the lack of software expertise or a need for more quality
+                  developers holding your company back? Don't let it be a
+                  barrier to growth. Instead, turn to our
+                  <strong>custom software development company.</strong>
+                  We specialize in designing & building secure, high-quality
+                  software solutions tailored to your specifications.
+                </p>
+                <img src="./images/Arrow.png" alt="Arrow" class="ArrowImage" />
+              </div>
+
+              <div class="formMain">
+                <form onSubmit="submitData(event)">
+                  <h4 class="FormTitle">
+                    Let's connect to bring your idea to life
+                  </h4>
+                  <p class="infoTitle"><label for="Name">Name:</label></p>
+                  <input
+                    type="text"
+                    placeholder="Name"
+                    id="Name"
+                    class="input"
+                    onfocus="nameInputFocus()"
+                  />
+                  <p class="mb-0" id="nameError"></p>
+                  <p class="infoTitle">
+                    <label for="phone">Phone:</label>
+                  </p>
+                  <input
+                    type="tel"
+                    placeholder="Phone"
+                    id="phone"
+                    class="input"
+                    onfocus="PhoneInputFocus()"
+                  />
+                  <p class="mb-0" id="PhoneError"></p>
+
+                  <p class="infoTitle">
+                    <label for="email">Email:</label>
+                  </p>
+                  <input
+                    type="email"
+                    placeholder="Email"
+                    id="email"
+                    class="input"
+                    onfocus="EmailInputFocus()"
+                  />
+                  <p class="ErrorFelid" id="EmailError"></p>
+                  <div class="ItemsCenterVertical">
+                    <button class="Connect" id="form" type="submit">
+                      Let's connect
+                    </button>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="Off_Shore_DevelopmentSection paddingOnMobile">
+        <div class="row marginOnTop">
+          <div class="col-xs-12 Width100 ItemsCenterVertical">
+            <div class="Width70 Width80OnXXL">
+              <div class="row">
+                <div
+                  class="col-xxl-6 col-xl-6 col-lg-6 col-md-24 col-sm-24 col-xs-24 d-flex justify-content-center align-items-center"
+                >
+                  <img
+                    src="./images/Computer.webp"
+                    alt="GraphComputer"
+                    class="ImageSize"
+                  />
+                </div>
+                <div
+                  class="col-xxl-6 col-xl-6 col-lg-6 col-md-24 col-sm-24 col-xs-24"
+                >
+                  <h2 class="OffShoreTitle text-lg-start text-center">
+                    Achieve Success with an Offshore Software Development
+                    Company
+                  </h2>
+                  <p
+                    class="OffShoreDescription PaddingOnBottom text-lg-start text-center"
+                  >
+                    Navigating the software development process can be
+                    overwhelming. Fortunately, our
+                    <b>offshore software development company</b>
+                    is here to guide you every step of the way. We know that
+                    each business possesses its unique essence, which is why we
+                    use a high-empathy approach to create software that aligns
+                    with your specific needs and objectives. Our iterative
+                    development process allows us to quickly adapt to your
+                    changing requirements, reducing risk and ensuring rapid
+                    delivery of software.
+                  </p>
+                  <p class="OffShoreDescription text-lg-start text-center">
+                    Whether you need a custom web app or a mobile application,
+                    our reliable on-demand
+                    <b>software development services</b> can help you propel
+                    your business forward. Rest assured, DFY SaaS ensures timely
+                    delivery, adherence to budget, and the utmost level of
+                    quality. So let our bespoke software solutions be the
+                    catalyst to transform your vision into a reality.
+                  </p>
+                  <div class="text-lg-start text-center">
+                    <button class="GetStarted">Get Started Now!</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="AdvisoryCradsSection">
+        <div class="Width100 ItemsCenterVertical">
+          <div class="Width70 CardWidthOnLessMedia">
+            <h2 class="OffShoreTitle text-center">
+              Technology Advisory and Beyond
+            </h2>
+            <div class="AllCardsMain paddingOnMobile">
+              <div class="CommonCard">
+                <div
+                  class="d-flex justify-content-center align-items-center mb-4"
+                >
+                  <img src="./images/Web.webp" alt="Web App Development" />
+                </div>
+                <h2 class="CardPlatformTitle text-center mb-4">
+                  Web App Development
+                </h2>
+                <p class="CardSubTitle px-3 text-center">
+                  Partner with us for a standout web app user experience &
+                  engagement.
+                </p>
+              </div>
+              <div class="CommonCard">
+                <div
+                  class="d-flex justify-content-center align-items-center mb-4"
+                >
+                  <img src="./images/Web.webp" alt="Web App Development" />
+                </div>
+                <h2 class="CardPlatformTitle text-center mb-4">
+                  Mobile App Development
+                </h2>
+                <p class="CardSubTitle px-3 text-center">
+                  Our custom mobile apps offer features that off-the-shelf apps
+                  cannot.
+                </p>
+              </div>
+              <div class="CommonCard">
+                <div
+                  class="d-flex justify-content-center align-items-center mb-4"
+                >
+                  <img src="./images/ProductDevelopment.webp"
+                  alt="ProductDevelopment" Development" />
+                </div>
+                <h2 class="CardPlatformTitle text-center mb-4">
+                  Product Development
+                </h2>
+                <p class="CardSubTitle px-3 text-center">
+                  Upgrade, scale, or add new features to boost business
+                  competitiveness.
+                </p>
+              </div>
+              <div class="CommonCard">
+                <div
+                  class="d-flex justify-content-center align-items-center mb-4"
+                >
+                  <img
+                    src="./images/UIUXDevelopment.webp"
+                    alt="UI UXDevelopment"
+                  />
+                </div>
+                <h2 class="CardPlatformTitle text-center mb-4">
+                  UI/UX Development
+                </h2>
+                <p class="CardSubTitle px-3 text-center">
+                  Get high-performing user interfaces for an immersive user
+                  experience.
+                </p>
+              </div>
+              <div class="CommonCard">
+                <div
+                  class="d-flex justify-content-center align-items-center mb-4"
+                >
+                  <img
+                    src="./images/DedicatedRemoteTeam.webp"
+                    alt="DedicatedRemoteTeam"
+                  />
+                </div>
+                <h2 class="CardPlatformTitle text-center mb-4">
+                  Dedicated Remote Team
+                </h2>
+                <p class="CardSubTitle px-3 text-center">
+                  Quickly fill skills gaps with our
+                  <b>dedicated software development team.</b>
+                </p>
+              </div>
+              <div class="CommonCard">
+                <div
+                  class="d-flex justify-content-center align-items-center mb-4"
+                >
+                  <img
+                    src="./images/QualityAssurance.webp"
+                    alt="QualityAssurance"
+                  />
+                </div>
+                <h2 class="CardPlatformTitle text-center mb-4">
+                  Quality Assurance
+                </h2>
+                <p class="CardSubTitle px-3 text-center">
+                  Our QA and test-driven development help eliminate bugs and
+                  defects.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="BenefitsDFY_Saas">
+        <div class="Width100 ItemsCenterVertical">
+          <div class="Width70 BenefitsCardOnLessMedia">
+            <h2 class="OffShoreTitle text-center my-5">
+              Benefits of the Team DFY SaaS
+            </h2>
+            <div class="BenefitsCardMain paddingOnMobile">
+              <div class="SingleCard">
+                <div
+                  class="d-flex flex-lg-row flex-column justify-content-center align-items-center gap-4 pb-4"
+                >
+                  <img src="./images/Pool.webp" alt="TalentPool" />
+
+                  <div>
+                    <h2 class="CardPlatformTitle text-lg-start text-center">
+                      Access to a larger talent pool:
+                    </h2>
+                    <p class="WidgetText mb-0 text-lg-start text-center">
+                      Getting DFY SaaS’s
+                      <b>software development Services</b> grants you immediate
+                      access to a vast talent pool of skilled developers. This
+                      enables you to create a superior product.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="SingleCard">
+                <div
+                  class="d-flex flex-lg-row flex-column justify-content-center align-items-center gap-4 pb-4"
+                >
+                  <img src="./images/Fastertime.webp" alt="FasterTime" />
+
+                  <div>
+                    <h2 class="CardPlatformTitle text-lg-start text-center">
+                      Faster time-to-market:
+                    </h2>
+                    <p class="WidgetText text-lg-start text-center mb-0">
+                      DFY SaaS has the infrastructure and expertise to get a
+                      software development project up and running quickly. This
+                      can help you bring your product to market faster than
+                      in-house.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="SingleCard">
+                <div
+                  class="d-flex flex-lg-row flex-column justify-content-center align-items-center gap-4 pb-4"
+                >
+                  <img src="./images/Focuson-.webp" alt="FocusOn" />
+
+                  <div>
+                    <h2 class="CardPlatformTitle text-lg-start text-center">
+                      Focus on core competencies:
+                    </h2>
+                    <p class="WidgetText text-lg-start text-center mb-0">
+                      Our compact team lets you focus on core competencies, like
+                      marketing and sales. Consequently, you can increase
+                      productivity and efficiency in other areas of your
+                      business.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="SingleCard">
+                <div
+                  class="d-flex flex-lg-row flex-column justify-content-center align-items-center gap-4 pb-4"
+                >
+                  <img src="./images/CostSaving.webp" alt="CostSaving" />
+
+                  <div>
+                    <h2 class="CardPlatformTitle text-lg-start text-center">
+                      Cost savings:
+                    </h2>
+                    <p class="WidgetText text-lg-start text-center mb-0">
+                      Outsourcing us offers cost savings through consolidated
+                      benefits, such as pre-hired talent, favorable contracts,
+                      zero onboarding costs, enhanced transparency, and many
+                      more.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="BlueBnnerSection">
+        <div class="position-relative MarginTop80">
+          <img src="./images/BlueBanner.webp" class="ImageDimension" />
+          <div class="position-absolute top-0 bottom-0 w-100">
+            <div
+              class="w-100 h-100 d-flex justify-content-center align-items-center"
+            >
+              <div class="Width70 WidthBlueBanner">
+                <h4 class="BlueBannerTitle text-md-start text-center">
+                  Looking for a Reliable Development Partner?
+                </h4>
+                <p class="BlueBannerDescription text-md-start text-center">
+                  Our <b>bespoke software development company</b> enables
+                  greater flexibility and agility, which is why 98% of CTOs
+                  trust us.
+                </p>
+                <div class="text-md-start text-center">
+                  <button class="DiscussProjectBtn mt-md-5 mt-2">
+                    Let's Discuss Your Project
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="OurWorkSection">
+        <h3 class="WorkTitle mb-0 pt-5">Our Work</h3>
+        <div class="w-100 ItemsCenterVertical">
+          <div class="width65 SliderContainerWidth">
+            <div class="Slider2" id="Slider2">
+              <div class="SliderDivWidth">
+                <div class="card border-0 CardBg">
+                  <div class="d-flex justify-content-center align-items-center">
+                    <img
+                      src="./images/kijenga-1.webp"
+                      alt="Card image cap"
+                      class="SliderImageWidth"
+                    />
+                  </div>
+                  <div class="card-body p-0 mt-3">
+                    <h5 class="card-title mb-0 pb-3">KIJENGA – Market Place</h5>
+                    <p class="card-text mb-3">
+                      The free platform is the best way to find professional
+                      contractors and expert advice for renovation in Saskatoon
+                      and nearby areas.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="SliderDivWidth">
+                <div class="card border-0 CardBg">
+                  <div class="d-flex justify-content-center align-items-center">
+                    <img
+                      src="./images/shopkijenga.webp"
+                      alt="Card image cap"
+                      class="SliderImageWidth"
+                    />
+                  </div>
+
+                  <div class="card-body p-0 mt-3">
+                    <h5 class="card-title mb-0 pb-3 pb-3">
+                      Shop Kijenga – Market Place
+                    </h5>
+                    <p class="card-text mb-3">
+                      Kijenga, a unique marketplace, facilitates the hiring of
+                      plumbers at affordable prices to meet and exceed customer
+                      expectations.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="SliderDivWidth">
+                <div class="card border-0 CardBg">
+                  <div class="d-flex justify-content-center align-items-center">
+                    <img
+                      src="./images/mdm-and-gp-answers.webp"
+                      alt="Card image cap"
+                      class="SliderImageWidth"
+                    />
+                  </div>
+
+                  <div class="card-body p-0 mt-3">
+                    <h5 class="card-title mb-0 pb-3 pb-3">
+                      MdM and GP Answers
+                    </h5>
+                    <p class="card-text mb-3">
+                      Microsoft monitors quality and compatibility data is an
+                      excellent solution to identify operating system issues
+                      before they affect machines.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="SliderDivWidth">
+                <div class="card border-0 CardBg">
+                  <div class="d-flex justify-content-center align-items-center">
+                    <img
+                      src="./images/tutor-finder.webp"
+                      alt="Card image cap"
+                      class="SliderImageWidth"
+                    />
+                  </div>
+
+                  <div class="card-body p-0 mt-3">
+                    <h5 class="card-title mb-0 pb-3">Tutor Finder</h5>
+                    <p class="card-text mb-3">
+                      The UK-based SaaS platform provides the opportunity to
+                      become a tutor or find the right teacher for kids in your
+                      vicinity.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="SliderDivWidth">
+                <div class="card border-0 CardBg">
+                  <div class="d-flex justify-content-center align-items-center">
+                    <img
+                      src="./images/get-well-3.webp"
+                      alt="Card image cap"
+                      class="SliderImageWidth"
+                    />
+                  </div>
+
+                  <div class="card-body p-0 mt-3">
+                    <h5 class="card-title mb-0 pb-3">Get well 3</h5>
+                    <p class="card-text mb-3">
+                      An online platform that provides weight loss coaching and
+                      personalized eating plans to achieve optimum health and
+                      prevent chronic diseases.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="SliderDivWidth">
+                <div class="card border-0 CardBg">
+                  <div class="d-flex justify-content-center align-items-center">
+                    <img
+                      src="./images/healing.webp"
+                      alt="Card image cap"
+                      class="SliderImageWidth"
+                    />
+                  </div>
+
+                  <div class="card-body p-0 mt-3">
+                    <h5 class="card-title mb-0 pb-3">Theta Healing</h5>
+                    <p class="card-text mb-3">
+                      A platform to practice and train modern meditation
+                      techniques using spiritual philosophy to enhance and
+                      evolve mind, body, and spirit.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="SliderDivWidth">
+                <div class="card border-0 CardBg">
+                  <div class="d-flex justify-content-center align-items-center">
+                    <img
+                      src="./images/auto-careers-jobs.webp"
+                      alt="Card image cap"
+                      class="SliderImageWidth"
+                    />
+                  </div>
+
+                  <div class="card-body p-0 mt-3">
+                    <h5 class="card-title mb-0 pb-3">Auto Careers</h5>
+                    <p class="card-text mb-3">
+                      The professional jobs network helps uncover exciting job
+                      openings, helpful advice, and fantastic career options
+                      across the US and Canada.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="SliderDivWidth">
+                <div class="card border-0 CardBg">
+                  <div class="d-flex justify-content-center align-items-center">
+                    <img
+                      src="./images/auto-moto-hr.webp"
+                      alt="Card image cap"
+                      class="SliderImageWidth"
+                    />
+                  </div>
+
+                  <div class="card-body p-0 mt-3">
+                    <h5 class="card-title mb-0 pb-3">Auto Moto HR</h5>
+                    <p class="card-text mb-3">
+                      The automoto jobs network is a one-stop hassle-free
+                      solution for recruiting, onboarding, and managing your
+                      employees.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="SliderDivWidth">
+                <div class="card border-0 CardBg">
+                  <div class="d-flex justify-content-center align-items-center">
+                    <img
+                      src="./images/auto-moto-social.webp"
+                      alt="Card image cap"
+                      class="SliderImageWidth"
+                    />
+                  </div>
+
+                  <div class="card-body p-0 mt-3">
+                    <h5 class="card-title mb-0 pb-3">Auto Moto Social</h5>
+                    <p class="card-text mb-3">
+                      The social jobs network is a great way to find exciting
+                      job opportunities, expert advice, and fantastic companies
+                      in the US and Canada.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="SliderDivWidth">
+                <div class="card border-0 CardBg">
+                  <div class="d-flex justify-content-center align-items-center">
+                    <img
+                      src="./images/hapity-1.webp"
+                      alt="Card image cap"
+                      class="SliderImageWidth"
+                    />
+                  </div>
+
+                  <div class="card-body p-0 mt-3">
+                    <h5 class="card-title mb-0 pb-3">Hapity</h5>
+                    <p class="card-text mb-3">
+                      A one-click solution to stream live from your phone or
+                      website while keeping full ownership of the videos.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="SliderDivWidth">
+                <div class="card border-0 CardBg">
+                  <div class="d-flex justify-content-center align-items-center">
+                    <img
+                      src="./images/on-demand.webp"
+                      alt="Card image cap"
+                      class="SliderImageWidth"
+                    />
+                  </div>
+
+                  <div class="card-body p-0 mt-3">
+                    <h5 class="card-title mb-0 pb-3">On-Demand Driver</h5>
+                    <p class="card-text mb-3">
+                      An easy, affordable, same-day delivery solution that
+                      allows users to send and track items in a few clicks.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="SliderDivWidth">
+                <div class="card border-0 CardBg">
+                  <div class="d-flex justify-content-center align-items-center">
+                    <img
+                      src="./images/Get-Service-Buddy.png"
+                      alt="Card image cap"
+                      class="SliderImageWidth"
+                    />
+                  </div>
+
+                  <div class="card-body p-0 mt-3">
+                    <h5 class="card-title mb-0 pb-3">Service Buddy</h5>
+                    <p class="card-text mb-3">
+                      The advanced app help service companies (like plumbers,
+                      electricians, Hvacs, etc.) streamline and optimize their
+                      entire field service management process.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="SliderDivWidth">
+                <div class="card border-0 CardBg">
+                  <div class="d-flex justify-content-center align-items-center">
+                    <img
+                      src="./images/design-my-smaile.webp"
+                      alt="Card image cap"
+                      class="SliderImageWidth"
+                    />
+                  </div>
+
+                  <div class="card-body p-0 mt-3">
+                    <h5 class="card-title mb-0 pb-3">Design My New Smile</h5>
+                    <p class="card-text mb-3">
+                      The SaaS solutions is a masterstroke of React Native that
+                      connects you with the right dentist or clinic.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="SliderDivWidth">
+                <div class="card border-0 CardBg">
+                  <div class="d-flex justify-content-center align-items-center">
+                    <img
+                      src="./images/tripovy.webp"
+                      alt="Card image cap"
+                      class="SliderImageWidth"
+                    />
+                  </div>
+
+                  <div class="card-body p-0 mt-3">
+                    <h5 class="card-title mb-0 pb-3">Tripovy</h5>
+                    <p class="card-text mb-3">
+                      Save, compare, and book flights from the palm of your hand
+                      with this easy-to-navigate web application.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="SliderDivWidth">
+                <div class="card border-0 CardBg">
+                  <div class="d-flex justify-content-center align-items-center">
+                    <img
+                      src="./images/malgrow.webp"
+                      alt="Card image cap"
+                      class="SliderImageWidth"
+                    />
+                  </div>
+
+                  <div class="card-body p-0 mt-3">
+                    <h5 class="card-title mb-0 pb-3">Malgrow</h5>
+                    <p class="card-text mb-3">
+                      Simple ERP software designed exclusively for entrepreneurs
+                      to help them track their business growth easily.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="SliderDivWidth">
+                <div class="card border-0 CardBg">
+                  <div class="d-flex justify-content-center align-items-center">
+                    <img
+                      src="./images/park-my-cloud.webp"
+                      alt="Card image cap"
+                      class="SliderImageWidth"
+                    />
+                  </div>
+
+                  <div class="card-body p-0 mt-3">
+                    <h5 class="card-title mb-0 pb-3">Park My Cloud</h5>
+                    <p class="card-text mb-3">
+                      The cloud-based SaaS platform enables IT firms to manage,
+                      govern, and optimize their spending across multiple public
+                      clouds.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="SliderDivWidth">
+                <div class="card border-0 CardBg">
+                  <div class="d-flex justify-content-center align-items-center">
+                    <img
+                      src="./images/rapid-soft.webp"
+                      alt="Card image cap"
+                      class="SliderImageWidth"
+                    />
+                  </div>
+
+                  <div class="card-body p-0 mt-3">
+                    <h5 class="card-title mb-0 pb-3">Rapid Soft</h5>
+                    <p class="card-text mb-3">
+                      A modern ERP system with mulitple modules to run the
+                      business process of small manufacturing units with ease.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="SliderDivWidth">
+                <div class="card border-0 CardBg">
+                  <div class="d-flex justify-content-center align-items-center">
+                    <img
+                      src="./images/restaurant-genie.webp"
+                      alt="Card image cap"
+                      class="SliderImageWidth"
+                    />
+                  </div>
+
+                  <div class="card-body p-0 mt-3">
+                    <h5 class="card-title mb-0 pb-3">Restaurant Genie</h5>
+                    <p class="card-text mb-3">
+                      A powerful ordering system designed to increase restaurant
+                      revenue streams by allowing them to accept online orders.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="SliderDivWidth">
+                <div class="card border-0 CardBg">
+                  <div class="d-flex justify-content-center align-items-center">
+                    <img
+                      src="./images/search-gi.webp"
+                      alt="Card image cap"
+                      class="SliderImageWidth"
+                    />
+                  </div>
+
+                  <div class="card-body p-0 mt-3">
+                    <h5 class="card-title mb-0 pb-3">Search GI</h5>
+                    <p class="card-text mb-3">
+                      A free social media platform for sharing quality content
+                      and creating engaging websites to make a strong online
+                      presence.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="SliderDivWidth">
+                <div class="card border-0 CardBg">
+                  <div class="d-flex justify-content-center align-items-center">
+                    <img
+                      src="./images/story-runway.webp"
+                      alt="Card image cap"
+                      class="SliderImageWidth"
+                    />
+                  </div>
+
+                  <div class="card-body p-0 mt-3">
+                    <h5 class="card-title mb-0 pb-3">Story Runway</h5>
+                    <p class="card-text mb-3">
+                      DFY SaaS is honored to create a one-of-a-kind run-time
+                      video generation solution.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="BestChoiceSection">
+        <div class="Width100 ItemsCenterVertical">
+          <div class="Width70 BenefitsCardOnLessMedia">
+            <h2 class="OffShoreTitle text-center my-5">
+              What Makes Us Your Best Choice?
+            </h2>
+            <div class="BenefitsCardMain">
+              <div class="SingleCard">
+                <div
+                  class="d-flex flex-lg-row flex-column justify-content-center align-items-center"
+                >
+                  <img
+                    src="./images/FastOnboarding.webp"
+                    alt="FastOnboarding"
+                  />
+
+                  <div>
+                    <h2 class="CardPlatformTitle text-lg-start text-center">
+                      Fast Onboarding
+                    </h2>
+                    <p class="WidgetText text-lg-start text-center mb-0">
+                      We empower our global clientele through quick onboarding
+                      and streamlined communication.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="SingleCard">
+                <div
+                  class="d-flex flex-lg-row flex-column justify-content-center align-items-center"
+                >
+                  <img
+                    src="./images/AgileProjectManagement.webp"
+                    alt="AgileProjectManagement"
+                  />
+
+                  <div>
+                    <h2 class="CardPlatformTitle text-lg-start text-center">
+                      Agile Project Management
+                    </h2>
+                    <p class="WidgetText text-lg-start text-center mb-0">
+                      Our efficient process meets client expectations, avoids
+                      budget overruns, and minimizes risks.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="SingleCard">
+                <div
+                  class="d-flex flex-lg-row flex-column justify-content-center align-items-center"
+                >
+                  <img
+                    src="./images/ConsistentDelivery.webp"
+                    alt="ConsistentDelivery"
+                  />
+
+                  <div>
+                    <h2 class="CardPlatformTitle text-lg-start text-center">
+                      Consistent Delivery
+                    </h2>
+                    <p class="WidgetText text-lg-start text-center mb-0">
+                      Utilizing our expertise, time-tested processes, and
+                      technical excellence, we achieve top results.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="SingleCard">
+                <div
+                  class="d-flex flex-lg-row flex-column justify-content-center align-items-center"
+                >
+                  <img src="./images/TruePartner.webp" alt="TruePartner" />
+
+                  <div>
+                    <h2 class="CardPlatformTitle text-lg-start text-center">
+                      True Partner
+                    </h2>
+                    <p class="WidgetText text-lg-start text-center mb-0">
+                      Our clients adore us. 9 out of 10 return to us for all
+                      their future software development needs.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="TransformIdeaSection">
+        <div class="Padding100">
+          <div class="w-100 ItemsCenterVertical">
+            <div class="Width70 IdeaBoxOnSmall">
+              <div class="card border-0">
+                <div
+                  class="card-body Shadow_Box d-flex flex-column justify-content-center align-items-center gap-3"
+                >
+                  <h2 class="OffShoreTitle text-center mb-0">
+                    Ready to transform your ideas into reality?
+                  </h2>
+                  <p class="WidgetText text-center">
+                    Let’s discuss how our expert team can tailor software
+                    solutions for your needs.
+                  </p>
+                  <div>
+                    <button class="ScheduleMeeting mt-3">
+                      Schedule a Meeting!
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="CustomerTestimonials">
+        <div class="TestimonialsBackgroundImage">
+          <h2 class="TestimonialsTitle text-center pt-5">
+            <span class="Red">Customer</span> Testimonials
+          </h2>
+          <div class="w-100 ItemsCenterVertical pt-5">
+            <div class="Width70 SliderResponsive">
+              <div class="Slider1" id="Slider1">
+                <div class="card border-0 BoxShadow">
+                  <div class="card-body">
+                    <div class="d-flex align-items-center">
+                      <img
+                        src="./images/Testimonialone.webp"
+                        alt="Image1"
+                        class="TestimonialsImageShape"
+                        id="ReviewerImage"
+                      />
+                      <div>
+                        <h3 class="author-name mb-0" id="ReviewerName">
+                          Ralph Mastronardi
+                        </h3>
+                        <h4
+                          class="author-designation mb-0"
+                          id="ReviewerDesignation"
+                        >
+                          Rapid Machining, Reliable Mold Services
+                        </h4>
+                      </div>
+                    </div>
+                    <div class="ItemContentWrapper" id="ReviewerContent">
+                      <p class="mb-0">
+                        DFY SaaS provided an automated process for us to make
+                        better management decisions. We improved our workflow
+                        and we are more informed. Our business is experiencing
+                        more profits than ever thanks to Usman’s solutions.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="card border-0 BoxShadow">
+                  <div class="card-body">
+                    <div class="d-flex align-items-center">
+                      <img
+                        src="./images/Kevin.webp"
+                        alt="Image2"
+                        class="TestimonialsImageShape"
+                      />
+                      <div>
+                        <h3 class="author-name mb-0">Kevin</h3>
+                        <h4 class="author-designation mb-0">
+                          CEO & Co-Founder, Kijenga
+                        </h4>
+                      </div>
+                    </div>
+                    <div class="ItemContentWrapper">
+                      <p class="mb-0">
+                        Without their unique solutions, we wouldn’t be where we
+                        are today.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="card border-0 BoxShadow">
+                  <div class="card-body">
+                    <div class="d-flex align-items-center">
+                      <img
+                        src="./images/Empty.webp"
+                        alt="Image3"
+                        class="TestimonialsImageShape"
+                      />
+                      <div>
+                        <h3 class="author-name mb-0">Farrukh Pervez</h3>
+                        <h4 class="author-designation mb-0">
+                          Director, Tutor Finder Services
+                        </h4>
+                      </div>
+                    </div>
+                    <div class="ItemContentWrapper">
+                      <p class="mb-0">
+                        The team was very competent, and from the first day,
+                        they were mentally clear about the project.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="card border-0 BoxShadow">
+                  <div class="card-body">
+                    <div class="d-flex align-items-center">
+                      <img
+                        src="./images/SherryTingley.webp"
+                        alt="Image4"
+                        class="TestimonialsImageShape"
+                      />
+                      <div>
+                        <h3 class="author-name mb-0">Sherry Tingley</h3>
+                        <h4 class="author-designation mb-0">
+                          CEO, One Click LLC
+                        </h4>
+                      </div>
+                    </div>
+                    <div class="ItemContentWrapper">
+                      <p class="mb-0">
+                        DFY SaaS’s technology plan improved my business workflow
+                        considerably. My business is now more efficient and
+                        profitable because of the automation process work.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="card border-0 BoxShadow">
+                  <div class="card-body">
+                    <div class="d-flex align-items-center">
+                      <img
+                        src="./images/Steven.webp"
+                        alt="Image5"
+                        class="TestimonialsImageShape"
+                      />
+                      <div>
+                        <h3 class="author-name mb-0">Steven Warner</h3>
+                        <h4 class="author-designation mb-0">
+                          Owner, AutoMotoHR
+                        </h4>
+                      </div>
+                    </div>
+                    <div class="ItemContentWrapper">
+                      <p class="mb-0">
+                        Outstanding to work with. We have been working on a long
+                        term project and the end product totally exceeded my
+                        expectations. Tasks were always done correctly and on
+                        schedule. I will absolutely be using again and would
+                        give a 100% recommendation.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="text-center">
+                <button class="BookFreeCall mt-5">Book a Free Call</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="NewsLetterSection paddingOnMobile">
+        <div class="position-relative">
+          <img
+            src="./images/NewsLetterbg_1.jpg"
+            alt="Newsletter"
+            class="w-100 NewsLetterHeight"
+          />
+          <div class="position-absolute top-0 w-100 h-100">
+            <div class="w-100 h-100 ItemsCenterVertical">
+              <div
+                class="Width70 NewsLetterInputWidth d-flex flex-column gap-lg-5 gap-2"
+              >
+                <h2 class="NewsLetterTitle text-center">
+                  Subscribe Our Newsletter
+                </h2>
+                <div class="d-flex justify-content-center Width90">
+                  <div class="Subscribe-div">
+                    <input
+                      type="email"
+                      id="email"
+                      placeholder="Your Email address"
+                      class="NewsLetterInput"
+                    />
+                    <button id="Subscribe" for="Subscribe" class="SubscribeBtn">
+                      Subscribe
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="TWOBannerSection">
+        <div class="BlueBannerMain">
+          <div class="w-100 ItemsCenterVertical">
+            <div
+              class="Width70 BlueBannerWidth d-flex flex-column justify-content-center align-items-center pt-4 gap-4"
+            >
+              <h2 class="BannerHeading">Lost in Development?</h2>
+              <p class="BannerParagraph">
+                Leverage the impeccable coding skills and domain knowledge of
+                DFY SaaS’ developers to build the right solution that meets your
+                business needs head-on.
+              </p>
+              <button class="BlueBannerBtn">Get Started</button>
+            </div>
+          </div>
+          <div class="w-100 ItemsCenterVertical">
+            <div
+              class="Width70 BlueBannerWidth d-flex flex-column justify-content-center align-items-center pt-4 gap-4"
+            >
+              <h2 class="BannerHeading text-center">
+                Interested in Partnering?
+              </h2>
+              <p class="BannerParagraph">
+                DFY SaaS is on a mission to help individuals who have an
+                extensive network but aren’t sure how to use it to grow their
+                income and earn themselves a holiday.
+              </p>
+              <button class="BlueBannerBtn">Become a Partner</button>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="Link_Section pt-3">
+        <div class="w-100 ItemsCenterVertical">
+          <div
+            class="Width70 LinkSectionWidth d-flex flex-xl-row flex-column gap-xl-0 gap-3 flex-wrap justify-content-between align-items-center"
+          >
+            <ul class="LinkHeading">
+              <li>Portfolio</li>
+              <li>Packages</li>
+              <li>About Us</li>
+              <li>FAQs</li>
+              <li>Follow Us:</li>
+            </ul>
+            <div class="SocialIcons">
+              <div class="Circle">
+                <a href="">
+                  <i class="fa-brands fa-facebook"></i>
+                </a>
+              </div>
+              <div class="Circle">
+                <a href="">
+                  <i class="fa-brands fa-linkedin"></i>
+                </a>
+              </div>
+              <div class="Circle">
+                <a href="">
+                  <i class="fa-brands fa-instagram"></i>
+                </a>
+              </div>
+              <div class="Circle">
+                <a href="">
+                  <i class="fa-brands fa-twitter"></i>
+                </a>
+              </div>
+              <div class="Circle">
+                <a href="">
+                  <i class="fa-brands fa-pinterest"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="w-100 d-flex justify-content-center">
+          <div class="Width70 LinkSectionWidth">
+            <div class="horizontalLine"></div>
+          </div>
+        </div>
+      </section>
+      <section class="FooterSection">
+        <div class="w-100 ItemsCenterVertical">
+          <div class="Width70 FooterSectionWidth">
+            <div
+              class="MeetIcons d-flex flex-md-row flex-column flex-wrap justify-content-center align-items-center gap50"
+            >
+              <div
+                class="d-flex flex-md-row flex-column align-items-center gap-2"
+              >
+                <div class="Circle">
+                  <a href="">
+                    <i class="fa-solid fa-envelope"></i>
+                  </a>
+                </div>
+                <div class="text-md-start text-center">
+                  <p class="mb-0 IconText"><strong>Email</strong></p>
+                  <p class="mb-0 IconText">info@dfysaas.com</p>
+                </div>
+              </div>
+              <div
+                class="d-flex flex-md-row flex-column align-items-center gap-2"
+              >
+                <div class="Circle">
+                  <a href="">
+                    <i class="fa-solid fa-phone"></i>
+                  </a>
+                </div>
+                <div class="text-md-start text-center">
+                  <p class="mb-0 IconText"><strong>Phone:</strong></p>
+                  <p class="mb-0 IconText">416-203-6000</p>
+                </div>
+              </div>
+              <div
+                class="d-flex flex-md-row flex-column align-items-center gap-2"
+              >
+                <div class="Circle">
+                  <a href="">
+                    <i class="fa-solid fa-location-arrow"></i>
+                  </a>
+                </div>
+                <div class="text-md-start text-center">
+                  <p class="mb-0 IconText"><strong>Canada Office:</strong></p>
+                  <p class="mb-0 IconText">
+                    1391 Wheat Boom Dr, Oakville, L6H7X2, Ontario, Canada.
+                  </p>
+                </div>
+              </div>
+              <div
+                class="d-flex flex-md-row flex-column flex-md-row flex-column align-items-center gap-2"
+              >
+                <div class="Circle">
+                  <a href="">
+                    <i class="fa-solid fa-location-arrow"></i>
+                  </a>
+                </div>
+                <div class="text-md-start text-center">
+                  <p class="mb-0 IconText"><strong>UK Office:</strong></p>
+                  <p class="mb-0 IconText">
+                    10 Plantagenet GardensRomford, Essex, UK.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="CopyRightText d-flex justify-content-center text-center py-4"
+        >
+          <p class="IconText mb-0">
+            © All Rights Reserved 2024 dfysaas | Powered by
+            <a>Intact Solutions</a>
+          </p>
+        </div>
+      </section>
+    </div>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
+      integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/jquery-migrate/3.4.1/jquery-migrate.min.js"
+      integrity="sha512-KgffulL3mxrOsDicgQWA11O6q6oKeWcV00VxgfJw4TcM8XRQT8Df9EsrYxDf7tpVpfl3qcYD96BpyPvA4d1FDQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"
+      integrity="sha512-HGOnQO9+SP1V92SrtZfjqxxtLmVzqZpjFFekvzZVWoiASSQgSr4cw9Kqd2+l8Llp4Gm0G8GIFJ4ddwZilcdb8A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script>
+      $(document).ready(function () {
+        $("#Slider1").slick({
+          infinite: true,
+          dots: true,
+          slidesToShow: 2,
+          slidesToScroll: 2,
+          speed: 1000,
+          autoplay: true,
+          autoplaySpeed: 2000,
+          prevArrow: false,
+          nextArrow: false,
+          responsive: [
+            {
+              breakpoint: 767,
+              settings: {
+                slidesToShow: 1,
+                slidesToScroll: 1,
+                infinite: true,
+                dots: true,
+              },
+            },
+            {
+              breakpoint: 480,
+              settings: {
+                slidesToShow: 1,
+                slidesToScroll: 1,
+                infinite: true,
+                dots: true,
+              },
+            },
+          ],
+        });
+      });
+    </script>
+
+    <script>
+      $(document).ready(function () {
+        $("#Slider2").slick({
+          infinite: false,
+          dots: false,
+          slidesToShow: 3,
+          slidesToScroll: 1,
+          dots: true,
+          responsive: [
+            {
+              breakpoint: 1199,
+              settings: {
+                slidesToShow: 2,
+                slidesToScroll: 1,
+              },
+            },
+            {
+              breakpoint: 767,
+              settings: {
+                slidesToShow: 1,
+                slidesToScroll: 1,
+              },
+            },
+            {
+              breakpoint: 481,
+              settings: {
+                slidesToShow: 1,
+                slidesToScroll: 1,
+              },
+            },
+          ],
+        });
+      });
+    </script>
+
+    <script src="./JS/index.js"></script>
+  </body>
+</html>

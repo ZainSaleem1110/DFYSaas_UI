@@ -1,0 +1,1289 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  box-sizing: border-box;
+  overflow-x: hidden;
+  overflow-y: auto;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100vh;
+}
+
+.Width100 {
+  width: 100%;
+}
+
+.Width90 {
+  width: 90%;
+}
+
+.Width80 {
+  width: 80%;
+}
+
+.Width70 {
+  width: 70%;
+}
+
+.ItemsCenter {
+  display: flex;
+  align-items: center;
+}
+
+.ItemsCenterVertical {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.GradientImage {
+  width: 100%;
+  height: 600px;
+}
+
+.Logo {
+  width: 204px;
+  height: 40px;
+}
+
+.Greetings {
+  color: #ffffff;
+  font-family: "Poppins", Sans-serif;
+  font-size: 32px;
+  font-weight: 600;
+}
+
+.BackgroundImage {
+  background-image: url("../images/Background.webp");
+  height: 600px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.ArrowImage {
+  position: absolute;
+  width: 150px;
+  height: 150px;
+  top: -10px;
+  right: 30px;
+}
+
+.UnderLineWidth {
+  width: 240px;
+}
+
+.headingTitle {
+  color: #ffffff;
+  font-family: "Poppins", Sans-serif;
+  font-size: 32px;
+  font-weight: 600;
+}
+
+.HeadingSubtitle {
+  color: #ffffff;
+  font-family: "Poppins", Sans-serif;
+  font-size: 50px;
+  font-weight: 700;
+  -webkit-text-stroke-color: #000;
+  stroke: #000;
+  text-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+  width: 80%;
+  margin-bottom: 0px;
+  padding-bottom: 40px;
+  line-height: 1;
+}
+
+.ColorYellow {
+  color: rgb(255, 186, 86);
+}
+
+.Description {
+  color: #ffffff;
+  font-family: "Poppins", Sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
+  width: 80%;
+}
+
+.FormTitle {
+  color: #0e2589;
+  font-weight: 600;
+  font-family: "Poppins", Sans-serif;
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 24px;
+}
+
+.infoTitle {
+  color: #3e3e3e;
+  font-size: 12px;
+  padding-left: 10px;
+  font-weight: 500;
+  margin: 10px 0px;
+}
+
+.input {
+  width: 100%;
+  outline: none;
+  padding: 10px 20px;
+  background: #f7f8f8;
+  border-color: transparent;
+  border-radius: 50px;
+}
+
+.formMain {
+  box-shadow: -2px 2px 8px #39488f;
+  padding: 10px;
+  background: #fff;
+  border-radius: 10px;
+  width: 360px;
+}
+
+.Connect {
+  width: 190px;
+  color: white;
+  background-color: #ff486a;
+  border-radius: 50px 50px 50px 50px;
+  border: none;
+  padding: 10px 20px 10px 20px;
+}
+
+.width60 {
+  width: 60%;
+}
+
+.marginTop30 {
+  margin-top: 30px;
+}
+
+/* Section NO # 2 OFFShore Development CSS START */
+
+.OffShoreTitle {
+  color: #333;
+  font-family: "poppins", Sans-serif;
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 40px;
+  margin-bottom: 30px;
+}
+
+.OffShoreDescription {
+  color: #727272;
+  font-family: "poppins", Sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  margin-bottom: 0;
+}
+
+.GetStarted {
+  background-color: #ff486a;
+  border: 2px solid #ff486a;
+  border-radius: 50px;
+  color: white;
+  padding: 14px 30px 14px 30px;
+  box-shadow: 0 0 10px 0 transparent;
+  font-size: 15px;
+  font-weight: 500;
+  font-family: poppins, Sans-serif;
+  margin: 60px 0px;
+  transition: all 0.3s;
+}
+
+.GetStarted:hover {
+  background-color: #ffffff;
+  border: solid 2px #ff486a;
+  color: #ff6278;
+  padding: 14px 30px 14px 30px;
+  border-radius: 50px;
+  transform: scale(1.1);
+}
+
+.PaddingOnBottom {
+  padding-bottom: 60px;
+}
+
+.marginOnTop {
+  margin-top: 60px;
+}
+
+.ImageSize {
+  width: 80%;
+}
+
+.CardPlatformTitle {
+  color: #333;
+  font-family: poppins, Sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.CardSubTitle {
+  color: #727272;
+  font-family: poppins, Sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.CommonCard {
+  max-width: 350px;
+  box-shadow: 0 6px 12px 0 rgba(0, 0, 0, 0.16);
+  padding: 24px 16px;
+  border-radius: 12px 12px 12px 12px;
+  background: #fdfdfd;
+}
+
+.AllCardsMain {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 40px;
+}
+
+.AdvisoryCradsSection {
+  background-color: #f6f6f6;
+  padding: 88px 0 75px;
+}
+
+.WidgetText {
+  color: #666;
+  font-family: "poppins", Sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.SingleCard {
+  box-shadow: 0 5px 30px 0 rgba(0, 0, 0, 0.08);
+  padding: 20px;
+  border-radius: 14px 14px 14px 14px;
+}
+
+.BenefitsCardMain {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  gap: 18px;
+}
+
+.ImageDimension {
+  width: 100%;
+}
+
+.BlueBannerDescription {
+  color: #fff;
+  font-family: "poppins", Sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.DiscussProjectBtn {
+  background-color: #ff486a;
+  border: 2px solid #ff486a;
+  color: #fdfdfd;
+  font-family: "poppins", Sans-serif;
+  padding: 14px 30px 14px 30px;
+  border-radius: 50px;
+  transition: all 0.3s;
+}
+
+.DiscussProjectBtn:hover {
+  background-color: #ffffff;
+  border: solid 2px #ff486a;
+  color: #ff6278;
+  padding: 14px 30px 14px 30px;
+  border-radius: 50px;
+  transform: scale(1.1);
+}
+
+.BlueBannerTitle {
+  color: #f6f6f6;
+  font-family: "poppins", Sans-serif;
+  font-size: 30px;
+  font-weight: 700;
+}
+
+.MarginTop80 {
+  margin-top: 80px;
+}
+
+.ScheduleMeeting {
+  background-color: #ff486a;
+  border-style: none;
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.5);
+  padding: 12px 24px;
+  color: #fdfdfd;
+  border-radius: 50px 50px 50px 50px;
+  transition: all 0.3s;
+}
+
+.ScheduleMeeting:hover {
+  color: #ff486a;
+  background-color: #fff;
+  border-color: #ff486a;
+  transform: scale(1.1);
+}
+
+.card-body .Shadow_Box {
+  box-shadow: 29px 29px 60px 0 rgba(0, 0, 0, 0.2);
+  padding: 60px;
+  border-radius: 16px 16px 16px 16px;
+}
+
+.Padding100 {
+  padding: 100px 0px;
+}
+
+.NewsLetterTitle {
+  color: #212121;
+  font-family: poppins, Sans-serif;
+  font-size: 42px;
+  font-weight: 600;
+}
+
+.NewsLetterInput {
+  border: 1px solid #eb002c;
+  outline: none;
+  font-family: "poppins", Sans-serif;
+  font-size: 16px;
+  border-radius: 50px;
+  color: #666;
+  background: #f7f8f8;
+  margin-right: 10px;
+  padding: 10px 30px 12px 18px;
+}
+
+.Subscribe-div {
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+.SubscribeBtn {
+  background: #ff486a;
+  color: rgb(255, 255, 255);
+  cursor: pointer;
+  border-color: #ff486a;
+  border-radius: 50px;
+  font-size: 16px;
+  font-weight: 500;
+  padding: 12px 16px 12px 16px;
+  border: none;
+  position: absolute;
+  right: -80px;
+  min-width: 150px;
+}
+
+.SubscribeBtn:hover {
+  background-color: #ffbb57;
+  border: 1px solid #ffbb57;
+}
+
+.BannerHeading {
+  color: #fff;
+  font-family: "poppins", Sans-serif;
+  font-size: 32px;
+  font-weight: 600;
+  margin: 0;
+}
+
+.BannerParagraph {
+  text-align: center;
+  color: #fff;
+  font-family: poppins, Sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  margin-bottom: 0;
+}
+
+.BlueBannerMain {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  background-color: transparent;
+  background-image: linear-gradient(270deg, #112b98 50%, #001671 50%);
+  padding-bottom: 20px;
+}
+
+.BlueBannerBtn {
+  background-color: #ff486a;
+  border: 2px solid #ff486a;
+  border-radius: 50px;
+  color: white;
+  padding: 12px 32px;
+  box-shadow: 0 0 10px 0 transparent;
+  font-size: 15px;
+  font-weight: 500;
+  font-family: poppins, Sans-serif;
+  border: none;
+  transition: all 0.3s;
+}
+
+.BlueBannerBtn:hover {
+  background: #ffbb57;
+}
+
+.LinkHeading li {
+  color: #001671;
+  font-family: "poppins", Sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  list-style-type: none;
+}
+
+.Circle {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  border: 2px solid #fe496a;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.SocialIcons i {
+  color: #fe496a;
+}
+
+.LinkHeading {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  gap: 50px;
+}
+
+.SocialIcons {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 30px;
+}
+
+.LinkHeading {
+  margin-bottom: 0;
+}
+
+.horizontalLine {
+  height: 1px;
+  background-color: #00000054;
+  margin: 30px 0px;
+}
+
+.MeetIcons i {
+  color: rgb(254, 73, 106);
+}
+
+.IconText {
+  color: #252525;
+  font-family: "poppins", Sans-serif;
+  font-size: 12px;
+  font-weight: 500;
+}
+
+.gap50 {
+  gap: 50px;
+}
+
+/* TestimonialsSection CSS */
+
+.TestimonialsBackgroundImage {
+  background-image: url("../images/customer.webp");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 650px;
+}
+
+.TestimonialsTitle {
+  font-family: "poppins", Sans-serif;
+  font-size: 35px;
+  color: #112b98;
+}
+
+.TestimonialsImageShape {
+  width: 65px;
+  height: 65px;
+  border-radius: 50%;
+  background: #fdfdfd;
+}
+
+h3.author-name {
+  font-family: "poppins", Sans-serif;
+  font-size: 18px;
+  color: #333;
+  font-weight: 600;
+  padding-left: 20px;
+}
+
+.author-designation {
+  font-family: "poppins", Sans-serif;
+  color: #a8a8a8;
+  font-size: 14px;
+  padding-left: 20px;
+}
+
+.BoxShadow {
+  box-shadow: 0 0 5px 0 #d7d7d7;
+  background: #fff;
+  border-radius: 12px;
+  height: 230px;
+}
+
+.Red {
+  color: #ff486a;
+}
+
+.slick-slide {
+  margin: 0px 10px;
+}
+
+.slick-dots li button:focus:before,
+.slick-dots li button:hover:before {
+  color: #2550ea !important ;
+}
+
+.slick-dots li button:before {
+  color: #2550ea !important ;
+  margin-top: 30px;
+  font-size: 13px;
+}
+
+.BookFreeCall {
+  font-family: "poppins", Sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+  background-color: #ff486a;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #ff486a;
+  border-radius: 39px 39px 39px 39px;
+  box-shadow: 0 0 10px 0 transparent;
+  padding: 15px 30px 15px 30px;
+  color: #fdfdfd;
+  transition: all 0.3s;
+}
+
+.BookFreeCall:hover {
+  color: #ff486a;
+  background-color: #fff;
+}
+
+.WorkTitle {
+  color: #112b98;
+  font-family: "poppins", Sans-serif;
+  font-size: 40px;
+  font-weight: 700;
+  text-align: center;
+}
+
+.card.CardBg {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 14px;
+}
+
+.card-title {
+  font-family: "poppins", sans-serif;
+  font-weight: 700;
+  color: #112b98;
+  font-size: 20px;
+
+  overflow: hidden;
+  text-align: center;
+}
+
+.card-text {
+  font-family: "poppins", sans-serif;
+  font-size: 15px;
+  color: #727272;
+  text-align: center;
+}
+
+.OurWorkSection {
+  background: #f6f6f6;
+  padding-bottom: 80px;
+}
+
+.SliderImageWidth {
+  width: 100%;
+  height: auto;
+  object-fit: contain;
+}
+
+.SliderDivWidth {
+  width: 353px !important;
+}
+
+#Slider2 {
+  margin-top: 30px;
+  padding: 0px 30px;
+}
+
+.slick-prev:before {
+  content: "\f060";
+  font-family: "FontAwesome";
+  font-size: 20px !important;
+  color: red !important;
+}
+
+.slick-arrow {
+  width: 50px;
+  height: 50px;
+  border-radius: 100%;
+  background-color: #e9e3e3;
+}
+
+.slick-arrow:hover {
+  background-color: #e9e3e3 !important;
+}
+
+.slick-next:before {
+  content: "\f061";
+  font-family: "FontAwesome";
+  font-size: 20px !important;
+  color: red !important;
+}
+
+.slick-next {
+  right: -20px;
+  background-color: #e9e3e3 !important;
+}
+
+.slick-disabled {
+  background-color: #e9e3e3 !important;
+}
+
+.width65 {
+  width: 65%;
+}
+
+.ErrorFelid {
+  font-family: "poppins", sans-serif;
+  font-size: 15px;
+  color: red;
+  margin-left: 15px;
+  padding: 5px 0px;
+}
+
+/* Media Queries Section */
+
+@media (width>=1601px) and (width<=1750px) {
+  .Description {
+    width: 85%;
+  }
+  .HeadingSubtitle {
+    width: 90%;
+  }
+  .SliderDivWidth {
+    width: 100% !important;
+  }
+  .card-title {
+    font-size: 18px;
+  }
+  .SliderImageWidth {
+    width: 90%;
+  }
+  .card-text {
+    font-size: 14px;
+  }
+}
+
+@media (width>=1400px) and (width<=1600px) {
+  .Description {
+    width: 85%;
+  }
+  .HeadingSubtitle {
+    width: 90%;
+  }
+  .Width90 {
+    width: 80%;
+  }
+  .width80OnLargeDevice {
+    width: 80%;
+  }
+
+  .Width80OnXXL {
+    width: 90%;
+  }
+  .CardWidthOnLessMedia {
+    width: 100%;
+  }
+  .BenefitsCardOnLessMedia {
+    width: 90%;
+  }
+  .SliderDivWidth {
+    width: 100% !important;
+  }
+  .card-title {
+    font-size: 18px;
+  }
+  .SliderImageWidth {
+    width: 90%;
+  }
+  .card-text {
+    font-size: 14px;
+  }
+  .SliderContainerWidth {
+    width: 86%;
+  }
+}
+
+@media (width>=1200px) and (width<=1399px) {
+  .Description {
+    width: 85%;
+  }
+  .HeadingSubtitle {
+    width: 90%;
+  }
+  .Width90 {
+    width: 90%;
+  }
+  .width80OnLargeDevice {
+    width: 90%;
+  }
+  .width60 {
+    width: 65%;
+  }
+
+  .Width80OnXXL {
+    width: 100%;
+  }
+  .ImageSize {
+    width: 85%;
+  }
+  .CardWidthOnLessMedia {
+    width: 100%;
+  }
+  .BenefitsCardOnLessMedia {
+    width: 90%;
+  }
+  .WidthBlueBanner {
+    width: 90%;
+  }
+  .ImageDimension {
+    object-fit: cover;
+    height: 300px;
+  }
+  .LinkSectionWidth {
+    width: 80%;
+  }
+  .FooterSectionWidth {
+    width: 100%;
+  }
+  .SliderResponsive {
+    width: 90%;
+  }
+  .SliderDivWidth {
+    width: 100% !important;
+  }
+  .card-title {
+    font-size: 18px;
+  }
+  .SliderImageWidth {
+    width: 90%;
+  }
+  .card-text {
+    font-size: 14px;
+  }
+  .SliderContainerWidth {
+    width: 86%;
+  }
+}
+
+@media (width>=991px) and (width<=1199px) {
+  .Description {
+    width: 85%;
+  }
+  .HeadingSubtitle {
+    width: 90%;
+  }
+  .Width90 {
+    width: 90%;
+  }
+  .width80OnLargeDevice {
+    width: 90%;
+  }
+  .width60 {
+    width: 65%;
+  }
+  .HeadingSubtitle {
+    font-size: 40px;
+  }
+  .ArrowImage {
+    right: 0px;
+  }
+  .Width80OnXXL {
+    width: 100%;
+  }
+  .ImageSize {
+    width: 60%;
+  }
+  .OffShoreTitle {
+    font-size: 25px;
+  }
+  .CardWidthOnLessMedia {
+    width: 100%;
+  }
+  .BenefitsCardOnLessMedia {
+    width: 96%;
+  }
+  .WidthBlueBanner {
+    width: 96%;
+  }
+  .ImageDimension {
+    height: 300px;
+    object-fit: fill;
+  }
+  .IdeaBoxOnSmall {
+    width: 96%;
+  }
+  .NewsLetterInputWidth {
+    width: 100%;
+  }
+  .BlueBannerWidth {
+    width: 90%;
+  }
+  .LinkSectionWidth {
+    width: 100%;
+  }
+  .FooterSectionWidth {
+    width: 100%;
+  }
+  .SliderResponsive {
+    width: 90%;
+  }
+  .SliderDivWidth {
+    width: 100% !important;
+  }
+  .card-title {
+    font-size: 18px;
+  }
+  .SliderImageWidth {
+    width: 90%;
+  }
+  .card-text {
+    font-size: 14px;
+  }
+  .SliderContainerWidth {
+    width: 86%;
+  }
+}
+
+@media (width>=768px) and (width<=990px) {
+  .Description {
+    width: 85%;
+  }
+  .HeadingSubtitle {
+    width: 100%;
+  }
+  .Width90 {
+    width: 90%;
+  }
+  .width80OnLargeDevice {
+    width: 90%;
+  }
+  .width60 {
+    width: 70%;
+  }
+  .HeadingSubtitle {
+    font-size: 30px;
+  }
+  .ArrowImage {
+    right: 0px;
+    width: 130px;
+    height: 130px;
+  }
+  .Width80OnXXL {
+    width: 100%;
+  }
+  .ImageSize {
+    width: 60%;
+  }
+  .OffShoreTitle {
+    font-size: 22px;
+  }
+  .CardWidthOnLessMedia {
+    width: 100%;
+  }
+  .BenefitsCardOnLessMedia {
+    width: 96%;
+  }
+  .BenefitsCardMain {
+    grid-template-columns: auto;
+    grid-template-rows: auto;
+    gap: 18px;
+  }
+  .WidthBlueBanner {
+    width: 96%;
+  }
+  .ImageDimension {
+    height: 300px;
+    object-fit: fill;
+  }
+  .IdeaBoxOnSmall {
+    width: 96%;
+  }
+  .WidgetText {
+    font-size: 15px;
+  }
+  .NewsLetterInputWidth {
+    width: 100%;
+  }
+  .BlueBannerWidth {
+    width: 100%;
+  }
+  .BannerHeading {
+    font-size: 28px;
+  }
+  .LinkSectionWidth {
+    width: 100%;
+  }
+  .FooterSectionWidth {
+    width: 100%;
+  }
+  .SliderResponsive {
+    width: 90%;
+  }
+  .SliderDivWidth {
+    width: 100% !important;
+  }
+  .card-title {
+    font-size: 16px;
+  }
+  .SliderImageWidth {
+    width: 90%;
+  }
+  .card-text {
+    font-size: 14px;
+  }
+  .SliderContainerWidth {
+    width: 86%;
+  }
+}
+
+@media (width>=481px) and (width<=767px) {
+  .Description {
+    width: 100%;
+  }
+  .HeadingSubtitle {
+    width: 100%;
+  }
+  .Width90 {
+    width: 100%;
+  }
+  .width80OnLargeDevice {
+    width: 100%;
+  }
+  .width60 {
+    width: 100%;
+  }
+  .HeadingSubtitle {
+    font-size: 30px;
+  }
+  .ArrowImage {
+    display: none;
+  }
+  .BackgroundImage {
+    height: 100%;
+    padding-bottom: 30px;
+  }
+  .Logo {
+    width: 100%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .formMain {
+    width: 100%;
+  }
+  .Width80OnXXL {
+    width: 100%;
+  }
+  .ImageSize {
+    width: 70%;
+  }
+  .OffShoreTitle {
+    font-size: 22px;
+  }
+  .CardWidthOnLessMedia {
+    width: 100%;
+  }
+  .BenefitsCardOnLessMedia {
+    width: 100%;
+  }
+  .BenefitsCardMain {
+    grid-template-columns: auto;
+    grid-template-rows: auto;
+    gap: 18px;
+  }
+  .paddingOnMobile {
+    padding: 0px 15px;
+  }
+  .WidthBlueBanner {
+    width: 96%;
+  }
+  .ImageDimension {
+    height: 300px;
+    object-fit: cover;
+  }
+  .IdeaBoxOnSmall {
+    width: 96%;
+  }
+  .WidgetText {
+    font-size: 15px;
+  }
+  .NewsLetterInputWidth {
+    width: 100%;
+  }
+  .NewsLetterHeight {
+    height: 300px;
+  }
+  .NewsLetterTitle {
+    font-size: 30px;
+  }
+  .SubscribeBtn {
+    right: 30%;
+    bottom: -80px;
+  }
+  .BlueBannerWidth {
+    width: 100%;
+  }
+  .BannerHeading {
+    font-size: 28px;
+  }
+  .BlueBannerMain {
+    grid-template-columns: auto;
+    background: #001671;
+  }
+  .BannerParagraph {
+    font-size: 15px;
+    padding: 0px 20px;
+  }
+  .LinkSectionWidth {
+    width: 100%;
+  }
+  .LinkHeading {
+    flex-direction: column;
+    gap: 20px;
+  }
+  .FooterSectionWidth {
+    width: 100%;
+  }
+  .gap50 {
+    gap: 20px;
+  }
+  .SliderResponsive {
+    width: 100%;
+  }
+  .SliderResponsive {
+    width: 90%;
+  }
+  .SliderDivWidth {
+    width: 100% !important;
+  }
+  .card-title {
+    font-size: 16px;
+  }
+  .SliderImageWidth {
+    width: 90%;
+  }
+  .card-text {
+    font-size: 14px;
+  }
+  .SliderContainerWidth {
+    width: 86%;
+  }
+}
+
+@media (max-width: 480px) {
+  .Description {
+    width: 100%;
+  }
+  .HeadingSubtitle {
+    width: 100%;
+  }
+  .Width90 {
+    width: 100%;
+  }
+  .width80OnLargeDevice {
+    width: 100%;
+  }
+  .width60 {
+    width: 100%;
+  }
+  .HeadingSubtitle {
+    font-size: 30px;
+  }
+  .ArrowImage {
+    display: none;
+  }
+  .BackgroundImage {
+    height: 100%;
+    padding-bottom: 30px;
+  }
+  .Logo {
+    width: 100%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .formMain {
+    width: 100%;
+  }
+  .paddingOnMobile {
+    padding: 0px 15px;
+  }
+  .Width80OnXXL {
+    width: 100%;
+  }
+  .ImageSize {
+    width: 100%;
+  }
+  .OffShoreTitle {
+    font-size: 22px;
+  }
+  .CardWidthOnLessMedia {
+    width: 100%;
+  }
+  .BenefitsCardOnLessMedia {
+    width: 100%;
+  }
+  .BenefitsCardMain {
+    grid-template-columns: auto;
+    grid-template-rows: auto;
+    gap: 18px;
+  }
+  .paddingOnMobile {
+    padding: 0px 15px;
+  }
+  .WidthBlueBanner {
+    width: 96%;
+  }
+  .ImageDimension {
+    height: 300px;
+    object-fit: cover;
+  }
+  .IdeaBoxOnSmall {
+    width: 100%;
+  }
+  .WidgetText {
+    font-size: 15px;
+  }
+  .NewsLetterInputWidth {
+    width: 100%;
+  }
+  .NewsLetterHeight {
+    height: 300px;
+  }
+  .NewsLetterTitle {
+    font-size: 30px;
+  }
+  .SubscribeBtn {
+    right: 30%;
+    bottom: -80px;
+  }
+  .BlueBannerWidth {
+    width: 100%;
+  }
+  .BannerHeading {
+    font-size: 28px;
+  }
+  .BlueBannerMain {
+    grid-template-columns: auto;
+    background: #001671;
+  }
+  .BannerParagraph {
+    font-size: 15px;
+    padding: 0px 20px;
+  }
+  .LinkSectionWidth {
+    width: 100%;
+  }
+  .LinkHeading {
+    flex-direction: column;
+    gap: 20px;
+  }
+  .FooterSectionWidth {
+    width: 100%;
+  }
+  .gap50 {
+    gap: 20px;
+  }
+  ul {
+    padding-left: 0;
+  }
+  .SliderResponsive {
+    width: 100%;
+  }
+  .BoxShadow {
+    height: auto;
+  }
+  .SliderResponsive {
+    width: 100%;
+  }
+  .SliderResponsive {
+    width: 90%;
+  }
+  .SliderDivWidth {
+    width: 100% !important;
+  }
+  .card-title {
+    font-size: 16px;
+  }
+  .SliderImageWidth {
+    width: 100%;
+  }
+  .card-text {
+    font-size: 14px;
+  }
+  .SliderContainerWidth {
+    width: 89%;
+  }
+  .card.CardBg {
+    padding: 12px;
+  }
+  .slick-dots {
+    width: 80%;
+    padding-top: 25px;
+  }
+}
+
+@media (max-width: 375px) {
+  .HeadingSubtitle {
+    font-size: 24px;
+  }
+  .Description {
+    font-size: 15px;
+  }
+  .Width80OnXXL {
+    width: 100%;
+  }
+
+  .OffShoreTitle {
+    font-size: 16px;
+    line-height: 30px;
+  }
+  .CardPlatformTitle {
+    font-size: 16px;
+  }
+  .BlueBannerTitle {
+    font-size: 23px;
+  }
+  .NewsLetterTitle {
+    font-size: 22px;
+  }
+  .NewsLetterInput {
+    width: 100%;
+    margin-right: 0;
+  }
+  .BannerHeading {
+    font-size: 23px;
+  }
+}

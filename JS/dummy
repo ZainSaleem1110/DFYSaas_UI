@@ -1,0 +1,12 @@
+ /^[a-zA-Z ]+$/.test(nameValue)
+
+
+
+
+ /^\d{10}$/.test(phoneValue)
+
+
+
+
+
+ /^\S+@\S+\.\S+$/.test(emailValue)
